@@ -1,4 +1,4 @@
-// test cases
+// test case scenarios
 // test case of accepting a date and returning the date in the format of YYYY-MM-DD
 // test case of invalid date format and return null
 
