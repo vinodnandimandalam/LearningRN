@@ -9,3 +9,11 @@ export interface User {
   email: string;
   token: string;
 }
+
+export interface SecondaryUser {
+  id: number;
+  name: string;
+  email: string;
+}
+
+// { id: 1, name: 'Alice Smith', email: 'alice@example.com' }

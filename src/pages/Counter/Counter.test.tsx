@@ -1,6 +1,3 @@
-// Check if initial count is displayed properly or not
-// Check when increment button pressed count should increase
-// Check when decrement button pressed count should decrease
 import Counter from './Counter';
 import { fireEvent, render } from '@testing-library/react-native';
 
