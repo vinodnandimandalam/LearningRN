@@ -4,7 +4,7 @@ import {
   DECREMENT_BUTTON,
   getDisplayText,
   INCREMENT_BUTTON,
-} from './Counter.test';
+} from './Counter.constants';
 import Button from '../../components/Button/Button';
 
 const Counter = () => {

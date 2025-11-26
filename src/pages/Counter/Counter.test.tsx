@@ -1,9 +1,10 @@
 import Counter from './Counter';
 import { fireEvent, render } from '@testing-library/react-native';
-
-export const getDisplayText = (count: number) => `Count ${count}`;
-export const INCREMENT_BUTTON = 'INCREMENT';
-export const DECREMENT_BUTTON = 'DECREMENT';
+import {
+  DECREMENT_BUTTON,
+  getDisplayText,
+  INCREMENT_BUTTON,
+} from './Counter.constants';
 
 describe('Counter component', () => {
   it('Should render the correct initial count', () => {
